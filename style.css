@@ -1,0 +1,291 @@
+.row {
+  margin: 0;
+}
+
+a {
+  color: white;
+}
+
+header {
+  background: white;
+  padding-bottom: 50px;
+}
+.navbar-custom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  border: 0;
+  text-align: center;
+  margin: 0;
+  background: white;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-center {
+  float: none;
+  text-align: right;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+.navbar a {
+  text-align: center;
+  color: black !important;
+  background: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: transparent;
+  color: blue;
+
+}
+
+.film-cover-top {
+  width: auto;
+  padding: 10px;
+}
+
+.film-cover {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+
+}
+.now-playing-movie-date {
+  bottom:17%;
+  left:10%;
+  position: absolute;
+  font-size: 17px;
+  color: white;
+}
+
+.now-playing-movie-title {
+  bottom:12%;
+  left:10%;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.now-playing-movie-btn {
+  bottom:5%;
+  left:10%;
+  position: absolute;
+}
+
+.featured-films-title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  color: white;
+}
+
+
+.featured-films-btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  color: white;
+}
+
+.featured-films-play-btn {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 10%;
+  transform: translate(-50%, -10%);
+}
+
+.featured-films-hidden {
+  background: #303030;
+  color: white;
+  padding: 50px;
+}
+
+.on-now-film-title {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.on-now-film-info {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: grey;
+}
+
+.on-now-film.btn {
+  margin-bottom: 10px;
+  color: red;
+}
+
+.no-gutter {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+}
+
+h3 {
+  padding-bottom: 10px;
+  color: #337ab7;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+.whats-on {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img-container {
+  background-color: #000000;
+  height: 500px;
+  padding: 0;
+  background-image: url("images/pet-sematary.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.img-container-img {
+  height: 500px;
+  border-top: 50px;
+  background-attachment: fixed;
+  background:
+}
+
+.social {
+  padding: 50px;
+  background: #303030;
+  color: white;
+  text-align: center;
+}
+
+.social-media {
+  padding-bottom: 30px;
+}
+
+.subscribe-btn {
+  margin: 10px;
+}
+
+.page-footer {
+  padding-top: 25px;
+  background-color: #337ab7;
+  color: white;
+}
+
+.page-footer p, h5, a {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.page-footer a:link {
+  color: white;
+}
+
+.footer-copyright {
+  background: #173b59;
+  padding: 15px;
+  color: white;
+}
+
+hr {
+  color: white;
+  width: 70%
+}
+
+.coming-soon-top {
+  margin: 0;
+}
+
+.coming-soon {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.coming-soon-whats-on {
+  padding-bottom: 50px;
+}
+
+.coming-soon-top-rated {
+  position: relative;
+  bottom: 20%;
+  left: 40%;
+  transform: translate(-50%, -10%);
+  color: white;
+}
+
+.coming-soon-top {
+  border: red;
+}
+.in-line {
+  display: inline-block;
+}
+.content {
+  padding: 50px;
+}
+
+.cinema-bg {
+  position: relative;
+  width: 100%
+  bottom: 25%
+  background-color: #000000;
+  height: 350px;
+  padding-bottom: 25px;
+  background-image: url("images/cinema.jpeg");
+  background-size: cover;
+  background-position: 0% 55%;
+  /* opacity: 0.4; */
+}
+
+.locations {
+  padding-top: 50px;
+}
+
+.our-locations-h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  color: white;
+}
+
+.our-locations-h3 {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  color: white;
+}
+
+.coming-soon-header {
+  background: #303030;
+  padding: 50px;
+  color: white;
+}
+
+.bg-overlay, .cinema-bg {
+  filter: brightness(70%);
+}
+
+.cinema-content {
+  padding-bottom: 25px;
+}
