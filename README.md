@@ -1,4 +1,4 @@
-# sparta-site-project
+# project-site
 
 **Task:** To product a responsive three page website using the Bootstrap framework. 
 
